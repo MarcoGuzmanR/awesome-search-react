@@ -1,0 +1,28 @@
+.app-results {
+  padding: 20px;
+
+  .app-results-total {
+    text-align: center;
+  }
+
+  .search-result--error {
+    background-color: #FF9494;
+    border: 1px solid #CC0000;
+    border-radius: 5px;
+    padding: 0.5rem 3rem;
+  }
+
+  .search-result-content {
+    display: flex;
+    justify-content: center;
+
+    .search-result-content__information {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-left: 20px;
+      width: 38%;
+    }
+  }
+}
+

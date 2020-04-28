@@ -1,0 +1,16 @@
+.app-input {
+  display: flex;
+  padding: 20px;
+  width: 920px;
+
+  input {
+    margin: 0px 20px;
+    font-size: 1.5rem;
+    width: 80%;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 20%;
+  }
+}
